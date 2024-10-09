@@ -36,7 +36,8 @@ public class TorpedoStore {
     boolean success = false;
 
     // simulate random overheating of the launcher bay which prevents firing
-    
+    //Hogy ne hozzak létre egy random számot minden egyes alkalommal
+    //adrenaline+noradrenalin+slavic squat+german stare+english or spanish
     double r = generator.nextDouble();
 
     if (r >= FAILURE_RATE) {
